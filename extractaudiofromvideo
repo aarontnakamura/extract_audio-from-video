@@ -1,0 +1,8 @@
+import moviepy
+import moviepy.editor
+# Replace the parameter with the location of your file
+video = moviepy.editor.VideoFileClip("videoStream_554ec566-ead4-45e8-91f5-5fb2151b2b5d_4-start-experiment-multiframe_d4c2fce8-13c2-41c7-a793-7e2d9a2b7b49_1659044719640_941.mp4")
+
+audio = video.audio
+# Replace the parameter with the location along with filename
+audio.write_audiofile("videoStream_554ec566-ead4-45e8-91f5-5fb2151b2b5d_4-start-experiment-multiframe_d4c2fce8-13c2-41c7-a793-7e2d9a2b7b49_1659044719640_941.mp3")
